@@ -1,5 +1,5 @@
-$AADEnvironment = "USGovernment"
-#$AADEnvironment = "AzureCloud"
+#$AADEnvironment = "USGovernment"
+$AADEnvironment = "AzureCloud"
 Connect-MsolService -AzureEnvironment $AADEnvironment
 
 #Change a guest to a Member
